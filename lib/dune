@@ -1,2 +1,10 @@
 (library
- (name calc))
+ (name calc)
+)
+
+(ocamllex
+  (modules lexer)
+)
+(menhir
+  (modules parser)
+)

@@ -2,7 +2,4 @@
 
 (name calc)
 
-(generate_opam_files true)
-
-(source
- (github p9romain/calculatrice))
+(using menhir 2.1)
